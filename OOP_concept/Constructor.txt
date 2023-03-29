@@ -1,0 +1,39 @@
+***Constructor***
+
+----> Constructor is used for initialization of an object. 
+Suppose we have a class student{
+String name;
+String roll;
+}
+
+we need to use constructor here to initialize name and roll value there.
+
+----> How to create constructor?
+Student(String name,int roll){
+this.name = name;
+this.roll = roll;
+}
+
+
+----> return type is not applicable for constructor
+
+----> If we use void Student(String name,int roll){
+
+} then it'll be a mothod not a constructor.
+
+----> Every class have a default constructor. And compiler create default constructor.
+
+----> Default constructor::
+Student(){
+super();
+}
+
+----> super() must be called to the first statement in the cnonstructor
+
+----> this must be called to the first statement in the cnonstructor
+
+----> we use super and this only in constructor. it's not possible to use those in method
+
+----> super means calling parent constructor and this means calling the current class constructor
+
+----> 
